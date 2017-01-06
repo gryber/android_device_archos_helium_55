@@ -18,7 +18,7 @@ TARGET_SCREEN_WIDTH := 720
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := helium_55
-PRODUCT_NAME := cm_helium_55
+PRODUCT_NAME := lineage_helium_55
 PRODUCT_BRAND := ARCHOS
 PRODUCT_MODEL := Helium 55
 PRODUCT_MANUFACTURER := ARCHOS
