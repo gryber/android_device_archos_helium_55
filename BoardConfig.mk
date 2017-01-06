@@ -1,5 +1,5 @@
-DEVICE_PATH := device/mts/smart_surf2_4g
-VENDOR_PATH := vendor/mts/smart_surf2_4g
+DEVICE_PATH := device/archos/helium_55
+VENDOR_PATH := vendor/archos/helium_55
 
 USE_CAMERA_STUB := true
 

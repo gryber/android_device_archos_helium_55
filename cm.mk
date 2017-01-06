@@ -2,13 +2,13 @@
 #$(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := Smart Surf2 4G
+PRODUCT_RELEASE_NAME := Helium 55
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/mts/smart_surf2_4g/device_smart_surf2_4g.mk)
+$(call inherit-product, device/archos/helium_55/device_helium_55.mk)
 
 # Configure dalvik heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
@@ -17,8 +17,8 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := smart_surf2_4g
-PRODUCT_NAME := cm_smart_surf2_4g
-PRODUCT_BRAND := MTS
-PRODUCT_MODEL := Smart Surf2 4G
-PRODUCT_MANUFACTURER := MTS
+PRODUCT_DEVICE := helium_55
+PRODUCT_NAME := cm_helium_55
+PRODUCT_BRAND := ARCHOS
+PRODUCT_MODEL := Helium 55
+PRODUCT_MANUFACTURER := ARCHOS

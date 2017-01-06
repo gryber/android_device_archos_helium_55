@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export DEVICE=smart_surf2_4g
-export VENDOR=mts
+export DEVICE=helium_55
+export VENDOR=archos
 
 if [ $# -eq 0 ]; then
   SRC=adb

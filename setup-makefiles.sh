@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEVICE=smart_surf2_4g
-VENDOR=mts
+DEVICE=helium_55
+VENDOR=archos
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
