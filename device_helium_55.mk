@@ -6,7 +6,7 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 # Off ninja
 USE_NINJA=false
 
-$(call inherit-product-if-exists, vendor/archos/helium_55/smart_surf2_4g-vendor.mk)
+$(call inherit-product-if-exists, vendor/archos/helium_55/helium_55-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/archos/helium_55/overlay
 
@@ -20,7 +20,7 @@ else
     LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-#TARGET_OTA_ASSERT_DEVICE := smart_surf2_4g
+#TARGET_OTA_ASSERT_DEVICE := _surf2_4g
 
 TARGET_PROVIDES_INIT_RC := true
 
