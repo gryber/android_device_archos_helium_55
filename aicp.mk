@@ -5,7 +5,7 @@
 PRODUCT_RELEASE_NAME := Helium 55
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/archos/helium_55/device_helium_55.mk)
@@ -18,7 +18,7 @@ TARGET_SCREEN_WIDTH := 720
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := helium_55
-PRODUCT_NAME := lineage_helium_55
+PRODUCT_NAME := aicp_helium_55
 PRODUCT_BRAND := ARCHOS
 PRODUCT_MODEL := Helium 55
 PRODUCT_MANUFACTURER := ARCHOS
